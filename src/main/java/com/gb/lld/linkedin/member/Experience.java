@@ -8,6 +8,7 @@ import java.time.LocalDate;
 @Data
 @NoArgsConstructor
 public class Experience {
+    private String experienceId;
     private String title;
     private EmploymentType employmentType;
     private String companyName;
