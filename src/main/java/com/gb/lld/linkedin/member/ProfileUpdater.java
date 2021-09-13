@@ -9,4 +9,6 @@ public interface ProfileUpdater {
     void removeEducation(String educationId);
     License addLicense(License license);
     void removeLicense(String licenseId);
+    VolunteerExperience addVolunteerExperience(VolunteerExperience volunteerExperience);
+    void  removeVolunteerExperience(String volunteerExperienceId);
 }
