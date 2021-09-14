@@ -5,7 +5,7 @@ import lombok.NoArgsConstructor;
 
 @NoArgsConstructor
 @Data
-public class Publications {
+public class Publication {
     private String id;
     private String title;
     private String publisher;

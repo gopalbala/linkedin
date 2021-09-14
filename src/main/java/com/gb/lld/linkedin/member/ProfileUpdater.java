@@ -11,4 +11,8 @@ public interface ProfileUpdater {
     void removeLicense(String licenseId);
     VolunteerExperience addVolunteerExperience(VolunteerExperience volunteerExperience);
     void  removeVolunteerExperience(String volunteerExperienceId);
+    Skill addSkill(Skill skill);
+    void removeSkill(String skillId);
+    Publication addPublication(Publication publication);
+    void removePublication(String publicationId);
 }
